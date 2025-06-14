@@ -1,9 +1,8 @@
 [Releases](/README.md#Changelog)
 
-- [v1.0](/releses/v1.0)
-  - [Features](/releses/v1.0.md##features)
-  - [Preview](/releses/v1.0.md##Preview) 
-
+- [v1.0 (June 13, 2025)](./releses/v1.0.md)
+  - [Overview](./releses/v1.0.md#overview)
+  - [Features](./releses/v1.0.md#features)
 
 <!-- - v1.x
   - [v1.x](/releases/v1.x)
