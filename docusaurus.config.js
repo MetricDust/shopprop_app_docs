@@ -1,36 +1,37 @@
 // @ts-check
-// Docusaurus configuration for ShopProp Changelog
+// Note: type annotations allow type checking and IDEs autocompletion
 
 const config = {
-  title: "ShopProp Changelog",
-  tagline: "Track all feature releases and updates",
-  url: "https://metricdust.github.io", // GitHub Pages root URL
-  baseUrl: "/expo_app_temp/", // Repo name
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  title: 'ShopProp Docs',
+  tagline: 'Discover. Request. Converse. Own.',
+  url: 'https://MetricDust.github.io', // replace with your GitHub username
+  baseUrl: '/expo_app_temp/',
 
-  organizationName: "MetricDust", // GitHub org/user
-  projectName: "expo_app_temp", // GitHub repo
-  deploymentBranch: "gh-pages", // Branch used for GitHub Pages
-  trailingSlash: false,
+  onBrokenLinks: 'warn', // ⛔ prevents build failure for now
+  onBrokenMarkdownLinks: 'warn',
+
+  favicon: 'img/favicon.ico',
+
+  organizationName: 'MetricDust', // GitHub org/user name.
+  projectName: 'expo_app_temp', // GitHub repo name.
 
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
     [
-      "classic",
+      'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
-          routeBasePath: "/", // Serve docs at the site root
+          sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/', // serves docs at root
         },
+        blog: false, // disable blog unless you're using it
         theme: {
-          customCss: require.resolve("./src/custom.css"),
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
@@ -40,47 +41,56 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
+        title: 'ShopProp',
         logo: {
-          alt: "ShopProp Logo",
-          src: "img/logo.png", // Optional: replace with your actual logo
+          alt: 'ShopProp Logo',
+          src: 'img/logo.svg',
         },
         items: [
           {
-            type: "docSidebar",
-            sidebarId: "changelogSidebar",
-            position: "left",
-            label: "Changelog",
+            to: '/',
+            label: 'Changelog',
+            position: 'left',
           },
           {
-            href: "https://www.shopprop.com",
-            label: "Main Website",
-            position: "right",
+            href: 'https://github.com/MetricDust/expo_app_temp',
+            label: 'GitHub',
+            position: 'right',
           },
         ],
       },
       footer: {
-        style: "dark",
+        style: 'dark',
         links: [
           {
-            title: "Docs",
+            title: 'Docs',
             items: [
               {
-                label: "Changelog",
-                to: "/",
+                label: 'Changelog',
+                to: '/',
               },
             ],
           },
           {
-            title: "More",
+            title: 'Community',
             items: [
               {
-                label: "ShopProp",
-                href: "https://www.shopprop.com",
+                label: 'Website',
+                href: 'https://shopprop.com',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'GitHub',
+                href: 'https://github.com/MetricDust/expo_app_temp',
               },
             ],
           },
         ],
-        copyright: `© ${new Date().getFullYear()} ShopProp by MetricDust. All rights reserved.`,
+        copyright: `© ${new Date().getFullYear()} ShopProp | Built with ❤️ using Docusaurus`,
       },
     }),
 };
