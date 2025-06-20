@@ -1,47 +1,27 @@
 ---
-sidebar_position: 1
+id: intro
+title: ShopProp Changelog
+sidebar_position: 0
 ---
 
-# Tutorial Intro
+![ShopProp Logo](../static/img/logo.png)
 
-Let's discover **Docusaurus in less than 5 minutes**.
+# 🏡 Welcome to ShopProp Changelog
 
-## Getting Started
+Your go-to page for tracking all updates and feature releases for the **ShopProp** mobile application.
 
-Get started by **creating a new site**.
+ShopProp is a modern, mobile-first real estate app built using **React Native** and **Expo**, designed to offer users a smooth, map-based property discovery experience with personalized features like Q&A, property requests, favorites, and more.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+---
 
-### What you'll need
+### 🧠 What is this site?
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+This changelog documents:
 
-## Generate a new site
+- 📦 New feature releases
+- 🛠 Enhancements and improvements
+- 🐛 Bug fixes
+- 💬 UI/UX upgrades
+- 🔐 Login-only capabilities
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+© 2025 ShopProp. All rights reserved.
