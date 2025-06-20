@@ -1,27 +1,61 @@
 ---
 id: intro
-title: ShopProp Changelog
-sidebar_position: 0
+title: Welcome to ShopProp Docs
+sidebar_label: Introduction
+slug: /intro
 ---
 
-![ShopProp Logo](../static/img/logo.png)
+# 🏡 Welcome to ShopProp Documentation
 
-# 🏡 Welcome to ShopProp Changelog
+ShopProp is a next-generation real estate platform that combines modern technology with transparent pricing to give buyers and sellers maximum savings and control.
 
-Your go-to page for tracking all updates and feature releases for the **ShopProp** mobile application.
-
-ShopProp is a modern, mobile-first real estate app built using **React Native** and **Expo**, designed to offer users a smooth, map-based property discovery experience with personalized features like Q&A, property requests, favorites, and more.
+Whether you're here to explore our app features, track updates, or integrate with our platform — this documentation is your starting point.
 
 ---
 
-### 🧠 What is this site?
+## 🚀 Why ShopProp?
 
-This changelog documents:
+- 💸 **Biggest Buyer Rebates**  
+  Get the largest buyer rebates in the market — earn more while buying smarter.
 
-- 📦 New feature releases
-- 🛠 Enhancements and improvements
-- 🐛 Bug fixes
-- 💬 UI/UX upgrades
-- 🔐 Login-only capabilities
+- 🏷️ **Lowest Listing Fees**  
+  Sell your home without losing equity to high commissions.
 
-© 2025 ShopProp. All rights reserved.
+- 📲 **Map-First Experience**  
+  Explore properties via an intuitive map interface, filters, and real-time data.
+
+- 🔐 **Smart Account Features**  
+  Save favorites, create tickets, chat with support, and more.
+
+---
+
+## 📖 What You'll Find Here
+
+This documentation includes:
+
+- ✅ **Feature Releases & Changelogs**  
+  View version-specific updates and improvements.
+
+- 📱 **App Walkthroughs**  
+  Learn how to use different sections of the ShopProp mobile app.
+
+- 🧠 **Q&A and Ticket System**  
+  Understand how to create and manage property-related requests.
+
+- 🗺️ **Navigation Tips**  
+  Make the most of our map, filter, and search experience.
+
+---
+
+<!-- ## 🔗 Useful Links
+
+- 🌐 [ShopProp Website](https://www.shopprop.com)
+- 📲 [Download App](https://www.shopprop.com)
+
+--- -->
+
+## 📌 Next Steps
+
+Head over to the [v1.0 – First Public Release](../v1.0) to explore everything available in the current version of the ShopProp mobile app.
+
+Or navigate via the sidebar ➡️
