@@ -5,8 +5,8 @@ import Link from "@docusaurus/Link";
 export default function Home() {
   return (
     <Layout
-      title="ShopProp – Biggest Buyer Rebates & Lowest Listing Fees"
-      description="Find your dream home while saving big with ShopProp’s commission-free buyer representation and low seller fees."
+      title="ShopProp app Changelog"
+      description="Find all updates and feature releases for the ShopProp mobile application."
     >
       <main style={{ padding: "4rem 2rem", textAlign: "center" }}>
         <img
