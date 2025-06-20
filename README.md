@@ -1,17 +1,41 @@
-# Changelog
+# Website
 
-Tracking all major features, enhancements, and fixes as we build the future of property discovery.
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
----
+## Installation
 
-![ShopProp Logo](/assets/main-logo.png)
+```bash
+yarn
+```
 
-Welcome to the official changelog for the **ShopProp app** – your go-to real estate platform. This app is proudly built using **React** and **Expo**, developed and maintained by the **ShopProp team**.
+## Local Development
 
-Here you’ll find a detailed record of new features, performance optimizations, UI improvements, and bug fixes released over time. Stay informed with what’s new in each version as we continue to enhance the property browsing and buying experience.
+```bash
+yarn start
+```
 
-➡️ **Latest: [View Latest Release](/releses/v1.0.md)**
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-🔒 All rights reserved © [ShopProp](https://www.shopprop.com/)
+## Build
 
+```bash
+yarn build
+```
 
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+## Deployment
+
+Using SSH:
+
+```bash
+USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```bash
+GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
