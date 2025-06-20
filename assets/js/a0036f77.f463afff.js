@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkexpo_app_temp=self.webpackChunkexpo_app_temp||[]).push([[233],{7184:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/expo_app_temp/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
