@@ -56,6 +56,6 @@ This documentation includes:
 
 ## 📌 Next Steps
 
-Head over to the [v1.0 – First Public Release](../v1.0) to explore everything available in the current version of the ShopProp mobile app.
+Head over to the latest release [v1.0 – First Public Release](../v1.0) to explore everything available in the current version of the ShopProp mobile app.
 
 Or navigate via the sidebar ➡️
