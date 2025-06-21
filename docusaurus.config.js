@@ -36,6 +36,20 @@ const config = {
     ],
   ],
 
+  plugins: [
+    // ✅ Local Search Plugin (no Algolia needed)
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        indexDocs: true,
+        indexPages: true,
+        language: ["en"],
+        docsRouteBasePath: "/",
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
