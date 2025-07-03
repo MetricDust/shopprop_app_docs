@@ -5,13 +5,13 @@ const config = {
   title: "ShopProp Changelog",
   tagline: "Track all feature releases and updates",
   url: "https://metricdust.github.io", // GitHub Pages root URL
-  baseUrl: "/expo_app_temp/", // Repo name (as served in GitHub Pages)
+  baseUrl: "/shopprop_app_docs/", // Repo name (as served in GitHub Pages)
   onBrokenLinks: "warn", // Changed from 'throw' to prevent build failures
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
 
   organizationName: "MetricDust", // GitHub org/user
-  projectName: "expo_app_temp", // GitHub repo
+  projectName: "shopprop_app_docs", // GitHub repo
   deploymentBranch: "gh-pages", // Branch used for GitHub Pages
   trailingSlash: false,
 
