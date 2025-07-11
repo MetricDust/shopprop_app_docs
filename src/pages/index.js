@@ -8,7 +8,7 @@ export default function Home() {
       title="ShopProp app Changelog"
       description="Find all updates and feature releases for the ShopProp mobile application."
     >
-      <main style={{ padding: "4rem 2rem", textAlign: "center" }}>
+      <main style={{ padding: "2rem 2rem", textAlign: "center" }}>
         <img
           src="img/logo.png"
           alt="ShopProp Logo"
@@ -34,8 +34,8 @@ export default function Home() {
             display: "flex",
             flexWrap: "wrap",
             justifyContent: "center",
-            gap: "2rem",
-            marginTop: "3rem",
+            gap: "5rem",
+            marginTop: "2rem",
           }}
         >
           <div style={{ maxWidth: "300px", textAlign: "center" }}>
@@ -58,6 +58,29 @@ export default function Home() {
               Use calculators for rebates, listing fees and ROI to make informed
               decisions.
             </p>
+          </div>
+        </div>
+
+        {/* qr code */}
+        <h2 style={{ marginTop: "3rem", fontSize: "1.5rem" }}>
+          📲 Download our app by scanning QR code
+        </h2>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "center",
+            gap: "10rem",
+            marginTop: "2rem",
+          }}
+        >
+          <div style={{ maxWidth: "200px", textAlign: "center" }}>
+            <h3>Play Store</h3>
+            <img src="img/qr-play-store.png" alt="Google Play" />
+          </div>
+          <div style={{ maxWidth: "200px", textAlign: "center" }}>
+            <h3>App Store</h3>
+            <img src="img/qr-app-store.png" alt="App Store" />
           </div>
         </div>
 
