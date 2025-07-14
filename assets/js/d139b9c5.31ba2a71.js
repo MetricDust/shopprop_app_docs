@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkexpo_app_temp=self.webpackChunkexpo_app_temp||[]).push([[285],{175:p=>{p.exports=JSON.parse('{"metadata":{"permalink":"/shopprop_app_docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
