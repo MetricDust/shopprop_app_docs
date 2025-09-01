@@ -10,7 +10,7 @@ module.exports = {
       type: "category",
       label: "Releases",
       collapsed: false,
-      items: ["v3.0", "v2.0", "v1.0"],
+      items: ["v4.0","v3.0", "v2.0", "v1.0"],
     },
   ],
 };
